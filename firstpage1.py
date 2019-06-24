@@ -26,7 +26,7 @@ def function2():
 def function3():
 
     os.system("recognizer.py")
-    #playsound('sound.mp3')
+    #playsound('sound.mp4')
 
 def function5():    
    os.startfile(os.getcwd()+"/developers/diet1frame1first.html");
