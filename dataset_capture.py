@@ -37,7 +37,7 @@ while(True):
     gray = cv2.cvtColor(image_frame, cv2.COLOR_BGR2GRAY)
 
     # Detect frames of different sizes, list of faces rectangles
-    faces = face_detector.detectMultiScale(gray, 1.3, 5)
+    faces = face_detector.detectMultiScale(gray, 1.3,5)
     
     #print('kjppjjbbnnjjjk')
 #print('kjppjjmmnnjjjk')
