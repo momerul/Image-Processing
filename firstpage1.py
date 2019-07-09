@@ -32,7 +32,6 @@ def function5():
    os.startfile(os.getcwd()+"/developers/diet1frame1first.html");
    
 def function6():
-
     root.destroy()
 
 def attend():
