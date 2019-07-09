@@ -46,7 +46,7 @@ def output(filename, sheet, num, name, id, present_status):
         sh = book.add_sheet(sheet)
     
     style0 = xlwt.easyxf('font: name Times New Roman, color-index blue, bold on, height 300',
-                         num_format_str='#,##0.00')
+                        num_format_str='#,##0.00')
     
     style1 = xlwt.easyxf(num_format_str='D-MMM-YY')
 
