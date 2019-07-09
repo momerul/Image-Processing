@@ -11,6 +11,7 @@ def getImagesAndLabels(path):
     #create empth face list
     faceSamples=[]
     #create empty ID list
+    
     Ids=[]
     #now looping through all the image paths and loading the Ids and the images
     for imagePath in imagePaths:
